@@ -90,8 +90,6 @@
 
 :- multifile element//1, portray/1.
 
-:- working_directory(_,'C:/Users/Eric/Documents/Notes/Discourse SWI-Prolog OSU OSL/OSU OSL Prolog').
-
 :- set_prolog_flag(double_quotes,codes).
 
 % -----------------------------------------------------------------------------
