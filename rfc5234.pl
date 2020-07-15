@@ -833,7 +833,7 @@ wsp(Result) -->
 
 % -----------------------------------------------------------------------------
 
-%! portray(-Value):atom)// is det.
+%! portray(@Value) is semidet.
 
 portray(rules(List)) :-
     portray(List).
